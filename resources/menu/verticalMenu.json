@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "url": "pages/report",
+      "name": "Report",
+      "icon": "menu-icon tf-icons bx bxs-report",
+      "slug": "app-companies"
+    },
+    {
+      "menuHeader": "Master Data"
+    },
+    {
+      "url": "pages/master-data-settings-companies",
+      "name": "Companies",
+      "icon": "menu-icon tf-icons bx bx-briefcase",
+      "slug": "master-data-settings-companies"
+    },
+    {
+      "url": "pages/master-data-settings-employees",
+      "name": "Employees",
+      "icon": "menu-icon tf-icons bx bxs-user-detail",
+      "slug": "master-data-settings-employees"
+    }
+  ]
+}
