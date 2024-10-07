@@ -13,7 +13,7 @@ use App\Http\Controllers\pages\MiscError;
 use App\Http\Controllers\pages\ReportController;
 
 // Main Page Route
-Route::get('/', [Analytics::class, 'index'])->name('dashboard-analytics');
+Route::get('/', [ReportController::class, 'index'])->name('dashboard-analytics');
 
 // layout
 Route::get('/layouts/without-menu', [WithoutMenu::class, 'index'])->name('layouts-without-menu');
